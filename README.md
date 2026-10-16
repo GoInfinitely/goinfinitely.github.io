@@ -18,7 +18,7 @@ Open `http://127.0.0.1:4173` on the same machine. For a remote VPS, use SSH port
 - Appearance and responsive layout: `docs/styles.css`.
 - Menu, experience links, and clipboard interaction: `docs/script.js`.
 - Résumé content and PDF generation: `scripts/generate_resume.py` (requires Python `reportlab`).
-- Portrait: the current `docs/assets/portrait.svg` is a temporary initials monogram. Add the original photo as `docs/assets/jose-cabral.png`, then update the profile image `src` in `docs/index.html` and set its `alt` to `Portrait of Jose Cabral`. A 256 × 256 pixel or larger source is recommended, but a smaller image can be used at its natural size.
+- Portrait: `docs/assets/jose-cabral.png` is the original photo supplied as `Jose.png`. Replace this asset to update the portrait. The page displays it in a circular frame with the alternative text `Portrait of Jose Cabral`.
 
 Career details and metrics are based on the résumé provided by Jose. Public repository entries describe the repositories without claiming original authorship of community projects. Upstream authors are credited in the site.
 
